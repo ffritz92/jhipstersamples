@@ -2,7 +2,8 @@
   "generator-jhipster": {
     "promptValues": {
       "packageName": "org.jhipster.blog",
-      "nativeLanguage": "en"
+      "nativeLanguage": "en",
+      "microservicePath": "../store"
     },
     "jhipsterVersion": "4.14.0",
     "baseName": "blog",
@@ -27,8 +28,7 @@
     "useSass": true,
     "clientPackageManager": "yarn",
     "applicationType": "gateway",
-    "testFrameworks": [
-    ],
+    "testFrameworks": [],
     "jhiPrefix": "jhi",
     "enableTranslation": true,
     "nativeLanguage": "en",
